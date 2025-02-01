@@ -1940,12 +1940,6 @@ LoadAllAnimations()
    end,
 })
 
-local Button = MainTab:CreateButton({
-   Name = "SCP",
-   Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/oneshot2122/ANIMATION-SCRIPT/refs/heads/main/animations'))()
-   end,
-})
 
 local Button = MainTab:CreateButton({
    Name = "SEXY",
@@ -1953,6 +1947,7 @@ local Button = MainTab:CreateButton({
      loadstring(game:HttpGet("https://raw.githubusercontent.com/ShutUpJamesTheLoser/freakyv94/refs/heads/main/freakyv94yes", true))()
    end,
 })
+
 
 local Button = MainTab:CreateButton({
    Name = "SCP",
