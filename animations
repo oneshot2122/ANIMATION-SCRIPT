@@ -1940,7 +1940,6 @@ LoadAllAnimations()
    end,
 })
 
-
 local Button = MainTab:CreateButton({
    Name = "SEXY",
    Callback = function()
@@ -1948,14 +1947,12 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-
 local Button = MainTab:CreateButton({
    Name = "SCP",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiderScriptRB/SpiderScriptRBUniversal/refs/heads/main/Protected_Spider.txt"))()
    end,
 })
-
 
 local Button = MainTab:CreateButton({
    Name = "GUN ANIMATION",
